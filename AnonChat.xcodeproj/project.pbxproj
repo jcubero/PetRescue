@@ -39,6 +39,7 @@
 		42E1254C1828571A00319FD0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E1254B1828571A00319FD0 /* MediaPlayer.framework */; };
 		42E1254F182933C200319FD0 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1254E182933C200319FD0 /* TPKeyboardAvoidingScrollView.m */; };
 		42E125521829347900319FD0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E125511829347900319FD0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		78759D8918FEFB8B0009AE6B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78759D8818FEFB8B0009AE6B /* Parse.framework */; };
 		788A46941875C9BD00B7DCD5 /* readfilm.png in Resources */ = {isa = PBXBuildFile; fileRef = 788A46921875C9BD00B7DCD5 /* readfilm.png */; };
 		788A46951875C9BD00B7DCD5 /* unreadfilm.png in Resources */ = {isa = PBXBuildFile; fileRef = 788A46931875C9BD00B7DCD5 /* unreadfilm.png */; };
 		78BCF1451864BBB200858D22 /* read.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BCF1421864BBB200858D22 /* read.png */; };
@@ -46,7 +47,6 @@
 		78BCF1471864BBB200858D22 /* unread.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BCF1441864BBB200858D22 /* unread.png */; };
 		78BCF1501864EFBA00858D22 /* GlobalTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BCF14F1864EFBA00858D22 /* GlobalTimer.m */; };
 		78CD29991876195400530B79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78CD29981876195400530B79 /* Default-568h@2x.png */; };
-		78DD72851868F054006D9FC9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DD72841868F054006D9FC9 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +106,7 @@
 		42E1254E182933C200319FD0 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		42E125501829347900319FD0 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		42E125511829347900319FD0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		78759D8818FEFB8B0009AE6B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		788A46921875C9BD00B7DCD5 /* readfilm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = readfilm.png; sourceTree = "<group>"; };
 		788A46931875C9BD00B7DCD5 /* unreadfilm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unreadfilm.png; sourceTree = "<group>"; };
 		78BCF1421864BBB200858D22 /* read.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = read.png; sourceTree = "<group>"; };
@@ -114,7 +115,6 @@
 		78BCF14E1864EFBA00858D22 /* GlobalTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTimer.h; sourceTree = "<group>"; };
 		78BCF14F1864EFBA00858D22 /* GlobalTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTimer.m; sourceTree = "<group>"; };
 		78CD29981876195400530B79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		78DD72841868F054006D9FC9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 				421B464E182708C00082B789 /* StoreKit.framework in Frameworks */,
 				421B464F182708C00082B789 /* SystemConfiguration.framework in Frameworks */,
 				421B460B1826C8D50082B789 /* CoreGraphics.framework in Frameworks */,
-				78DD72851868F054006D9FC9 /* Parse.framework in Frameworks */,
+				78759D8918FEFB8B0009AE6B /* Parse.framework in Frameworks */,
 				421B463F1827084A0082B789 /* AudioToolbox.framework in Frameworks */,
 				421B460D1826C8D50082B789 /* UIKit.framework in Frameworks */,
 				421B46091826C8D50082B789 /* Foundation.framework in Frameworks */,
@@ -174,7 +174,7 @@
 		421B46071826C8D50082B789 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78DD72841868F054006D9FC9 /* Parse.framework */,
+				78759D8818FEFB8B0009AE6B /* Parse.framework */,
 				42E1254B1828571A00319FD0 /* MediaPlayer.framework */,
 				421B4640182708C00082B789 /* CFNetwork.framework */,
 				421B4641182708C00082B789 /* CoreLocation.framework */,
@@ -490,6 +490,7 @@
 					"$(inherited)",
 					/Users/admin/Code/JustinRib,
 					/Users/jcubero/JustinRib,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/AnonChat-Prefix.pch";
@@ -510,6 +511,7 @@
 					"$(inherited)",
 					/Users/admin/Code/JustinRib,
 					/Users/jcubero/JustinRib,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/AnonChat-Prefix.pch";
